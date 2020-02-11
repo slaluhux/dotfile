@@ -1,7 +1,7 @@
 # My cwm config
 
 fontname "xos4 Terminus:pixelsize=12"
-command term "st -f 'xos4 Terminus-12'"
+command term "sakura"
 borderwidth 2
 gap 2 2 2 2
 
@@ -12,7 +12,7 @@ unbind-mouse all
 
 bind-key M-Return terminal
 bind-key M-d menu-exec
-bind-key CM-c window-close
+bind-key CM-c window-delete
 bind-key CM-r restart
 bind-key CM-q quit
 bind-key CM-f window-fullscreen
@@ -61,7 +61,7 @@ bind-key M-k window-move-up-big
 bind-key MS-l window-move-right
 bind-key M-l window-move-right-big
 
-bind-key CM-h window-resize-left
-bind-key CM-j window-resize-down
-bind-key CM-k window-resize-up
-bind-key CM-l window-resize-right
+bind-key CM-h window-resize-left-big
+bind-key CM-j window-resize-down-big
+bind-key CM-k window-resize-up-big
+bind-key CM-l window-resize-right-big
